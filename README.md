@@ -1,3 +1,3 @@
-# Kinematic_2.5D_Solar_Dynamo_Model_Result_Analysis_Codes
+2.5D Kinematic Solar Dynamo Model Result Analysis Codes
 
 These codes are written for the analysis of the Kinematic 2.5D solar dynamo model output.
