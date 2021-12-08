@@ -1,3 +1,5 @@
+ %Calculation of Parity in Hazra & Nandy (2019) paper.
+ %First run pnpsa.m program to generate pasat_south_northern.dat file.
  load pasat_south_northern.dat
  x=pasat_south_northern(:,1);
  y=pasat_south_northern(:,2);
