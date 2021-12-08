@@ -1,4 +1,4 @@
- %Calculation of 22 year averaged signed asymmetry and parity in Hazra & Nandy 2019, MNRAS, 489, 4329 paper.
+%Calculation of 11 year averaged signed asymmetry and parity in Hazra & Nandy 2019, MNRAS, 489, 4329 paper.
 %Use erupt_northern.m and erupt_southern.m to generate erupt_northsss.dat and erupt_southsss.dat file.
 %These two files are basically number of eruptions in the northern and southern hemispheres.
  load erupt_northsss.dat;
