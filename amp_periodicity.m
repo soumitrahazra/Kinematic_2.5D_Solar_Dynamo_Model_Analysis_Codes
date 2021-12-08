@@ -1,5 +1,6 @@
 %Southern Hemisphere (run.dat file)
-%Calculation of peak amplitude 
+%Calculation of peak amplitude and periodicity
+%first column time, second column periodicity and third column peak amplitude.
 %Soumitra (7.5.2016)
  clear all;
  load run.dat;
