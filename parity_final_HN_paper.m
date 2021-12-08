@@ -1,4 +1,4 @@
- %Calculation of Parity in Hazra & Nandy (2019) paper.
+ %Calculation of Parity in Hazra & Nandy 2019, MNRAS, 489, 4329 paper.
  %First run pnpsa.m program to generate pasat_south_northern.dat file.
  load pasat_south_northern.dat
  x=pasat_south_northern(:,1);
