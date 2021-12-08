@@ -1,4 +1,5 @@
 %Southern Hemisphere (run.dat file)
+%Northern Hemisphere (ram.dat file)
  load run.dat;
  load ram.dat;
  x=run(:,1);
