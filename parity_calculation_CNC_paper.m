@@ -1,3 +1,7 @@
+ %Calculation of Parity following Chatterjee, Nandy & Choudhuri 2001 paper.
+ %y=run(:,2) for southern hemisphere and z=ram(:,2) for northern hemisphere.
+ %run.dat for southern hemisphere data and ram.dat for northern hemisphere data.
+ %It is better if one writes both northern and southern hemisphere data in same data file.
  load run.dat;
  load ram.dat;
  x=run(:,1);
