@@ -1,3 +1,6 @@
+%Calculation of 22 year averaged signed asymmetry and parity in Hazra & Nandy 2019, MNRAS, 489, 4329 paper.
+%Use erupt_northern.m and erupt_southern.m to generate erupt_northsss.dat and erupt_southsss.dat file.
+%These two files are basically number of eruptions in the northern and southern hemispheres.
 load erupt_northsss.dat;
  mydata = erupt_northsss; 
  f=1;
@@ -31,6 +34,7 @@ load erupt_northsss.dat;
  %plot(store_north)
  %hold on ;
  %plot(store_south,'r') ;
+ %Calculation of Signed Asymmetry....
  diff = store_north - store_south ;
  diffn = diff./max(diff);
  %figure ;
