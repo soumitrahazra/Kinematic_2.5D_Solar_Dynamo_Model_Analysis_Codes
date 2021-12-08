@@ -1,6 +1,7 @@
 %Southern Hemisphere (run.dat file)
 %Calculation of peak amplitude and periodicity
 %first column time, second column periodicity and third column peak amplitude.
+%One have to comment first two line in the data file.
 %Soumitra (7.5.2016)
  clear all;
  load run.dat;
@@ -44,13 +45,13 @@
  
  end
 % Calculation for periodicity
- time(1)=0;
- time(2)= xs(1);
+ tim(1)=0;
+ tim(2)= xs(1);
  for n= 3:length(xs)
-  time(n)= xs(n-1)- xs(n-2);
+  tim(n)= xs(n-1)- xs(n-2);
  end
 
-  m=[xs; time; zz];
+  m=[xs; tim; zz];
  fid=fopen('amp_period_southers.dat','w');
  fprintf(fid, '%6.8f %6.8f %6.8f\n',m);
  fclose(fid);
