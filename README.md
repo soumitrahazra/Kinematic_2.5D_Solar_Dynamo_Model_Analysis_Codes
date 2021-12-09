@@ -1,1 +1,1 @@
-These codes are written for the analysis of the Kinematic 2.5D solar dynamo model output. One can use these codes to analyse the output of the Surya (publicly available on request) code. My output is on 300 * 300 grid, while output of the publicly available Surya code is 129*129 grid. One have to modify these codes based on his output.
+These codes are written for the analysis of the Kinematic 2.5D solar dynamo model output. One can use these codes to analyse the output of the Surya (publicly available on request) code. My output is on 300 * 300 grid.
